@@ -1,0 +1,39 @@
+.sidebar {
+  width: 200px;
+  background-color: white;
+  width: 25%;
+}
+
+.heading {
+  background-color: #d9d9d9;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.item {
+  font-size: 12px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.select {
+  border: 1px solid #00a69a;
+  border-radius: 7px;
+  background-color: #00a69a;
+  color: white;
+  padding: 3px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 93%;
+  margin-left: 0%;
+}

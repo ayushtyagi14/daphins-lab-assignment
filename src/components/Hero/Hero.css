@@ -1,0 +1,92 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.search-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid black;
+  border-right: 0px;
+  padding: 5px;
+}
+
+.search-bar {
+  width: 300px;
+  margin-left: 10px;
+}
+
+.search-img {
+  margin-left: 3px;
+}
+
+.search-bar,
+.search-btn {
+  border: none;
+}
+
+.search-btn {
+  background-color: #00a69a;
+  color: white;
+  padding: 8px;
+  width: 60px;
+  font-size: 12px;
+}
+
+.opt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.brac,
+.selected,
+.remove {
+  margin-left: 10px;
+}
+
+.selected {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #00a69a;
+  border-radius: 7px;
+  background-color: #00a69a;
+  color: white;
+  padding: 3px;
+  font-size: 12px;
+}
+
+.remove {
+  color: rgb(135, 8, 8);
+}
+
+.search-btn:hover,
+.selected:hover,
+.remove:hover,
+.tabs:hover {
+  cursor: pointer;
+}
